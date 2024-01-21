@@ -1,0 +1,13 @@
+<html>
+<head>
+    <!-- Include Alpine.js -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+</head>
+<body>
+    <!-- Your simplified Alpine.js code -->
+    <div x-data="{ open: false }">
+        <button @click="open = !open">Toggle</button>
+        <p x-show="open">This is visible when 'open' is true.</p>
+    </div>
+</body>
+</html>
